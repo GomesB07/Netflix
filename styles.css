@@ -5,12 +5,16 @@
     font-family: sans-serif;
     color: #FFFFFF;
 }
+body{
+    width: 100%;
+}
 #container{
      background: url(./Assets/background.jpeg);
-     padding-bottom: 140px ;
+     padding-bottom: 180px ;
 } 
 #logo-netflix{
     cursor: pointer;
+    width: 133px;
 }
 #botao-entrar{
     background-color: #E50815;
@@ -29,35 +33,44 @@
 }
 h1{
     text-align: center;
-    font-size: 56px;
+    font-size: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 140px;
+    margin-top: 130px;
+    font-weight: 500;
 }
 #paragrafo-assista{
     text-align: center;
-    font-size: 27px;
+    font-size: 26px;
     margin-top: 15px;
+    font-weight: 100;
 }
 #paragrafo-pronto{
     text-align: center;
     font-size: 20px;
     margin-top: 30px;
+    font-weight: 200;
 }
 input{
-    width: 500px;
+    width: 450px;
     padding-left: 10px;
-    border-radius: 1px;
-    border: none;
+    font-size: 15px;
+    border: #303030;
+    height: 60px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 #botao-email{
-    width: 250px;
+    width: 180px;
     background-color: #E50815;
-    border: none;
-    border-radius: 1px;
-    font-size: 30px;
+    border: #303030;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-size: 25px;
     cursor: pointer;
+    font-weight: 300;
+    height: 60px;
 }
 #botao-email:hover{
     opacity: 0.7;
@@ -72,6 +85,7 @@ input{
     background-color: #000000;
     border-top: 10px solid #303030;
     padding: 70px 0;
+    padding-bottom: 200px;
 }
 h2{
     font-size: 40px;
@@ -90,6 +104,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    display: block;
 }
 #imagem-pergunta{
     float: right;
@@ -112,4 +127,85 @@ h2{
     margin-top: 2px;
     font-size: 2 0px;
     display: none;
+}
+
+
+@media (max-width: 740px){
+    h1{
+        font-size: 35px;
+        width: 90%;
+    }
+    #paragrafo-assista{
+        font-size: 22px;
+    }
+    #paragrafo-pronto{
+        font-size: 18px;
+    }
+    input{
+        width: 350px;
+        margin-top: 30px;
+    }
+    #botao-email{
+       width: 150px;
+       font-size: 20px;
+       margin-top: 30px;
+   }
+   h2{
+       font-size: 25px;
+   }
+   #botao-pergunta,
+   #pergunta{
+       width: 600px;
+   }
+}
+@media (max-width: 640px){
+    h1{
+        width: 80%;
+    }
+    #paragrafo-pronto{
+        width: 100%;
+        font-size: 16px;
+    }
+    #botao-pergunta,
+    #pergunta{
+        width: 550px;
+    }
+}
+@media (max-width: 580px){
+    #botao-entrar,
+    #logo-netflix{
+        margin-top: 15px;
+    }
+    #botao-pergunta,
+    #pergunta{
+        width: 500px;
+    }
+}
+@media (max-width: 525px){
+    h1{
+        width: 90%;
+    }
+    #paragrafo-assista{
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    #paragrafo-pronto{
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        width: 315px;
+    }
+    #botao-email{
+        width: 150px;
+    }
+    #botao-pergunta,
+    #pergunta{
+        width: 470px;
+    }
+}
+@media (max-width: 485px){
+
 }
