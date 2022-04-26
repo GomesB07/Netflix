@@ -62,12 +62,14 @@ h1 {
     font-weight: 200;
 }
 
-input {
+#email {
     width: 450px;
     padding-left: 10px;
     font-size: 15px;
     border: #303030;
     height: 60px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
 }
