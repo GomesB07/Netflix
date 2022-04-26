@@ -150,6 +150,14 @@ h2 {
 
 
 @media (max-width: 740px) {
+    #logo-netflix {
+        margin-top: 30px;
+    }
+
+    #botao-entrar {
+        margin-top: 30px;
+    }
+
     h1 {
         font-size: 35px;
         width: 90%;
@@ -216,7 +224,7 @@ h2 {
 
     #botao-entrar,
     #logo-netflix {
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
     #botao-pergunta,
@@ -257,12 +265,14 @@ h2 {
 }
 
 @media (max-width: 414px) {
-    #logo-netflix{
+    #logo-netflix {
         margin: 20px auto auto -20px;
     }
-    #botao-entrar{
+
+    #botao-entrar {
         margin: 20px -20px auto auto;
     }
+
     #paragrafo-assista {
         font-size: 18px;
     }
@@ -285,6 +295,10 @@ h2 {
     #botao-pergunta {
         width: 380px;
         height: 50px;
+    }
+
+    #pergunta {
+        width: 380px;
     }
 
     #imagem-pergunta {
@@ -317,6 +331,10 @@ h2 {
     #botao-pergunta {
         width: 350px;
     }
+
+    #pergunta {
+        width: 350px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -334,13 +352,20 @@ h2 {
         width: 95%;
         margin: 30px auto;
     }
-    #email{
+
+    #email {
         width: 220px;
     }
-    #botao-email{
+
+    #botao-email {
         width: 110px;
     }
-    #botao-pergunta{
+
+    #botao-pergunta {
+        width: 330px;
+    }
+
+    #pergunta {
         width: 330px;
     }
 }
