@@ -1,22 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     color: #FFFFFF;
 }
-body{
+
+body {
     width: 100%;
 }
-#container{
-     background: url(./Assets/background.jpeg);
-     padding-bottom: 180px ;
-} 
-#logo-netflix{
+
+#container {
+    background: url(./Assets/background.jpeg);
+    padding-bottom: 180px;
+}
+
+#logo-netflix {
     cursor: pointer;
     width: 133px;
 }
-#botao-entrar{
+
+#botao-entrar {
     background-color: #E50815;
     border: none;
     font-size: 16px;
@@ -25,13 +29,16 @@ body{
     float: right;
     cursor: pointer;
 }
-#botao-entrar:hover{
+
+#botao-entrar:hover {
     opacity: 0.7;
 }
-#cabecalho{
+
+#cabecalho {
     padding: 28px 56px;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 50px;
     width: 50%;
@@ -40,19 +47,22 @@ h1{
     margin-top: 130px;
     font-weight: 500;
 }
-#paragrafo-assista{
+
+#paragrafo-assista {
     text-align: center;
     font-size: 26px;
     margin-top: 15px;
     font-weight: 100;
 }
-#paragrafo-pronto{
+
+#paragrafo-pronto {
     text-align: center;
     font-size: 20px;
     margin-top: 30px;
     font-weight: 200;
 }
-input{
+
+input {
     width: 450px;
     padding-left: 10px;
     font-size: 15px;
@@ -61,7 +71,8 @@ input{
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
 }
-#botao-email{
+
+#botao-email {
     width: 180px;
     background-color: #E50815;
     border: #303030;
@@ -72,26 +83,31 @@ input{
     font-weight: 300;
     height: 60px;
 }
-#botao-email:hover{
+
+#botao-email:hover {
     opacity: 0.7;
 }
-#formulario{
+
+#formulario {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     height: 60px;
 }
-#rodape{
+
+#rodape {
     background-color: #000000;
     border-top: 10px solid #303030;
     padding: 70px 0;
     padding-bottom: 200px;
 }
-h2{
+
+h2 {
     font-size: 40px;
     text-align: center;
 }
-#botao-pergunta{
+
+#botao-pergunta {
     width: 700px;
     background-color: #303030;
     border: none;
@@ -106,19 +122,22 @@ h2{
     cursor: pointer;
     display: block;
 }
-#imagem-pergunta{
+
+#imagem-pergunta {
     float: right;
     margin-top: 5px;
     cursor: pointer;
     transform: rotate(45deg);
 }
-#imagem-pergunta-girar{
+
+#imagem-pergunta-girar {
     float: right;
     margin-top: 5px;
     cursor: pointer;
     transform: rotate(90deg);
 }
-#pergunta{
+
+#pergunta {
     width: 700px;
     background-color: #303030;
     margin-left: auto;
@@ -130,82 +149,198 @@ h2{
 }
 
 
-@media (max-width: 740px){
-    h1{
+@media (max-width: 740px) {
+    h1 {
         font-size: 35px;
         width: 90%;
     }
-    #paragrafo-assista{
+
+    #paragrafo-assista {
         font-size: 22px;
     }
-    #paragrafo-pronto{
+
+    #paragrafo-pronto {
         font-size: 18px;
     }
-    input{
-        width: 350px;
+
+    input {
+        width: 370px;
         margin-top: 30px;
     }
-    #botao-email{
-       width: 150px;
-       font-size: 20px;
-       margin-top: 30px;
-   }
-   h2{
-       font-size: 25px;
-   }
-   #botao-pergunta,
-   #pergunta{
-       width: 600px;
-   }
+
+    #botao-email {
+        width: 170px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    #img-botao {
+        padding-left: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #botao-pergunta,
+    #pergunta {
+        width: 600px;
+    }
 }
-@media (max-width: 640px){
-    h1{
+
+@media (max-width: 640px) {
+    #logo-netflix {
+        margin-top: 30px;
+    }
+
+    #botao-entrar {
+        margin-top: 30px;
+    }
+
+    h1 {
         width: 80%;
     }
-    #paragrafo-pronto{
+
+    #paragrafo-pronto {
         width: 100%;
         font-size: 16px;
     }
+
     #botao-pergunta,
-    #pergunta{
+    #pergunta {
         width: 550px;
     }
 }
-@media (max-width: 580px){
+
+@media (max-width: 580px) {
+
     #botao-entrar,
-    #logo-netflix{
+    #logo-netflix {
         margin-top: 15px;
     }
+
     #botao-pergunta,
-    #pergunta{
+    #pergunta {
         width: 500px;
     }
 }
-@media (max-width: 525px){
-    h1{
+
+@media (max-width: 525px) {
+    h1 {
         width: 90%;
     }
-    #paragrafo-assista{
+
+    #paragrafo-assista {
         font-size: 20px;
         margin-top: 35px;
     }
-    #paragrafo-pronto{
+
+    #paragrafo-pronto {
         font-size: 20px;
         align-items: center;
         display: flex;
         justify-content: center;
     }
-    input{
+
+    input {
         width: 315px;
     }
-    #botao-email{
+
+    #botao-email {
         width: 150px;
     }
+
     #botao-pergunta,
-    #pergunta{
-        width: 470px;
+    #pergunta {
+        width: 450px;
     }
 }
-@media (max-width: 485px){
 
+@media (max-width: 414px) {
+    #logo-netflix{
+        margin: 20px auto auto -20px;
+    }
+    #botao-entrar{
+        margin: 20px -20px auto auto;
+    }
+    #paragrafo-assista {
+        font-size: 18px;
+    }
+
+    #paragrafo-pronto {
+        font-size: 18px;
+    }
+
+    #email {
+        width: 250px;
+        height: 50px;
+    }
+
+    #botao-email {
+        width: 130px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    #botao-pergunta {
+        width: 380px;
+        height: 50px;
+    }
+
+    #imagem-pergunta {
+        width: 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    #logo-netflix {
+        margin: 20px 50px auto -30px;
+    }
+
+    #botao-entrar {
+        margin: 20px -25px auto auto;
+    }
+
+    #email {
+        width: 230px;
+    }
+
+    #botao-email {
+        width: 120px;
+        font-size: 17px;
+    }
+
+    #img-botao {
+        width: 15px;
+    }
+
+    #botao-pergunta {
+        width: 350px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #paragrafo-assista {
+        width: 100%;
+    }
+
+    #paragrafo-pronto {
+        font-size: 18px;
+        width: 95%;
+        margin: 30px auto;
+    }
+    #email{
+        width: 220px;
+    }
+    #botao-email{
+        width: 110px;
+    }
+    #botao-pergunta{
+        width: 330px;
+    }
 }
