@@ -9,7 +9,7 @@
 
 ### 📄Project on GitHub Pages:
 
-Https://GomesB07.github.io/Netflix/
+https://GomesB07.github.io/Netflix/
 
 ### 🤝 Contributors
 We thank the following people who contributed to this project:
