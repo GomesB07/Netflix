@@ -5,7 +5,10 @@
 ---
 <br>
 
-<img width="313" alt="print projeto" src="https://user-images.githubusercontent.com/93354781/166126455-202df367-e6c3-44f7-88f4-4377ea7dd581.png">
+<div display= "flex">
+    <img src="./Assets/Captura Projeto/Print-1.png" width= "200px">
+    <img src="./Assets/Captura Projeto/Print-2.png" width= "500px">
+<div>
 
 ---
 <br>
