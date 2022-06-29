@@ -1,24 +1,46 @@
+<h1 align= "center">Netflix</h1>
 
-# Netflix
+<p>Registration/Login screen based on Netflix website.</p>
+
+---
+<br>
 
 <img width="313" alt="print projeto" src="https://user-images.githubusercontent.com/93354781/166126455-202df367-e6c3-44f7-88f4-4377ea7dd581.png">
 
-##
+---
+<br>
 
-<strong>Registration/Login screen based on Netflix website</strong>
+<h2>Reference</h2>
 
-### 📄Project on GitHub Pages:
+ <a href="https://rodolfomori.com.br/devclub/" target="_blank"><img src="https://img.shields.io/static/v1?label=DevClub&message=Link&color=0094F5&style=for-the-badge&logo="/></a>
 
-https://GomesB07.github.io/Netflix/
+---
+<br>
 
-### 🤝 Contributors
-We thank the following people who contributed to this project:
+<h2>🔗Link Projeto</h2>
+
+<a href="https://GomesB07.github.io/Netflix/" target="_blank"><img src="https://img.shields.io/static/v1?label=Project&message=Link&color=0094F5&style=for-the-badge&logo="/></a>
+
+---
+<br>
+
+<h2>💻Technologies</h2>
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img align="center" alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+</div>
+
+---
+<br>
+
+<h2>Authors</h2>
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://user-images.githubusercontent.com/93354781/139967887-3c73c17c-d82b-4b46-ac35-40669f06e941.gif" width="200px;" alt="Foto do Bruno Luis no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93354781?v=4" width="100px;" alt="Foto do Bruno Luis no GitHub"/><br>
         <sub>
           <b>Bruno Luis</b>
         </sub>
@@ -27,3 +49,19 @@ We thank the following people who contributed to this project:
   </tr>
 </table>
 
+---
+<br>
+
+<h2 align="center"> 
+	🚧  Finished  🚧
+</h2>
+
+---
+<br>
+
+<h2>Contact Forms</h2>
+
+  <a href="https://instagram.com/b_gomes75" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:bruno.dev07@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/bruno-luis-07" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://api.whatsapp.com/send?phone=5511980587706" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
